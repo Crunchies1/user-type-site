@@ -1,0 +1,32 @@
+:host {
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: "Helvetica";
+}
+
+.large-button {
+  padding: 8px 15px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.outline-button {
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #e1e4e8;
+}
+
+.large-icon {
+    inline-size: auto;
+}
